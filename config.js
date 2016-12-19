@@ -3,9 +3,9 @@ module.exports = {
         return {};
     },
     customDesign: {
-        version: 1,
+        version: 2,
         views: {
-            printerByMacAddress: {
+            printServerByMacAddress: {
                 map: function (doc) {
                     if(doc.$type !== 'entry') return;
                     if(doc.$kind !== 'printServer') return;
